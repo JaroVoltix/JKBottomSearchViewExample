@@ -12,7 +12,26 @@
 		4AB17740207E9B5D00649B1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB1773E207E9B5D00649B1A /* Main.storyboard */; };
 		4AB17742207E9B6000649B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB17741207E9B6000649B1A /* Assets.xcassets */; };
 		4AB17745207E9B6000649B1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB17743207E9B6000649B1A /* LaunchScreen.storyboard */; };
+		4AB1774D207E9C3700649B1A /* JKBottomSearchView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB1774C207E9C3700649B1A /* JKBottomSearchView.framework */; };
+		4AB1774E207E9C9400649B1A /* JKBottomSearchView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB1774C207E9C3700649B1A /* JKBottomSearchView.framework */; };
+		4AB1774F207E9C9400649B1A /* JKBottomSearchView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB1774C207E9C3700649B1A /* JKBottomSearchView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4AB17753207E9CE100649B1A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB17751207E9CE100649B1A /* TableViewCell.swift */; };
+		4AB17754207E9CE100649B1A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB17752207E9CE100649B1A /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4AB17750207E9C9500649B1A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4AB1774F207E9C9400649B1A /* JKBottomSearchView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4AB17737207E9B5D00649B1A /* JKBottomSearchViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKBottomSearchViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +41,9 @@
 		4AB17741207E9B6000649B1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AB17744207E9B6000649B1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AB17746207E9B6000649B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB1774C207E9C3700649B1A /* JKBottomSearchView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JKBottomSearchView.framework; sourceTree = "<group>"; };
+		4AB17751207E9CE100649B1A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		4AB17752207E9CE100649B1A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB1774D207E9C3700649B1A /* JKBottomSearchView.framework in Frameworks */,
+				4AB1774E207E9C9400649B1A /* JKBottomSearchView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +78,15 @@
 		4AB17739207E9B5D00649B1A /* JKBottomSearchViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				4AB1774C207E9C3700649B1A /* JKBottomSearchView.framework */,
 				4AB1773A207E9B5D00649B1A /* AppDelegate.swift */,
 				4AB1773C207E9B5D00649B1A /* ViewController.swift */,
 				4AB1773E207E9B5D00649B1A /* Main.storyboard */,
 				4AB17741207E9B6000649B1A /* Assets.xcassets */,
 				4AB17743207E9B6000649B1A /* LaunchScreen.storyboard */,
 				4AB17746207E9B6000649B1A /* Info.plist */,
+				4AB17751207E9CE100649B1A /* TableViewCell.swift */,
+				4AB17752207E9CE100649B1A /* TableViewCell.xib */,
 			);
 			path = JKBottomSearchViewExample;
 			sourceTree = "<group>";
@@ -74,6 +101,7 @@
 				4AB17733207E9B5D00649B1A /* Sources */,
 				4AB17734207E9B5D00649B1A /* Frameworks */,
 				4AB17735207E9B5D00649B1A /* Resources */,
+				4AB17750207E9C9500649B1A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB17745207E9B6000649B1A /* LaunchScreen.storyboard in Resources */,
+				4AB17754207E9CE100649B1A /* TableViewCell.xib in Resources */,
 				4AB17742207E9B6000649B1A /* Assets.xcassets in Resources */,
 				4AB17740207E9B5D00649B1A /* Main.storyboard in Resources */,
 			);
@@ -135,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB17753207E9CE100649B1A /* TableViewCell.swift in Sources */,
 				4AB1773D207E9B5D00649B1A /* ViewController.swift in Sources */,
 				4AB1773B207E9B5D00649B1A /* AppDelegate.swift in Sources */,
 			);
@@ -282,6 +312,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8K9V2VJ95T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JKBottomSearchViewExample",
+				);
 				INFOPLIST_FILE = JKBottomSearchViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +334,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8K9V2VJ95T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JKBottomSearchViewExample",
+				);
 				INFOPLIST_FILE = JKBottomSearchViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

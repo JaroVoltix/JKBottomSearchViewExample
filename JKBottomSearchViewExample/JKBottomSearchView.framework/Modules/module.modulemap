@@ -1,0 +1,11 @@
+framework module JKBottomSearchView {
+  umbrella header "JKBottomSearchView.h"
+
+  export *
+  module * { export * }
+}
+
+module JKBottomSearchView.Swift {
+    header "JKBottomSearchView-Swift.h"
+    requires objc
+}
